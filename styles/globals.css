@@ -14,3 +14,45 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.flex {
+  display: flex;
+}
+.center {
+  align-items: center;
+  align-content: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.white {
+  color: white;
+}
+
+.se {
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: none;
+  background: #1e1e1e;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #101010;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.blue {
+  color: lightblue;
+}

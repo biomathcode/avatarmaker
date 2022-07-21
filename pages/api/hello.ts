@@ -18,13 +18,6 @@ const data = {
 
 type Req = "Shocked" | "Confused" | "Anxious" | "Smile";
 
-enum Emotion {
-  "Shocked",
-  "Confused",
-  "Anxious",
-  "Smile",
-}
-
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
